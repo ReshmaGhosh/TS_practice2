@@ -1,0 +1,10 @@
+{
+  "name": "typescript-practice-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "andrea",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^5.0.4"
+  }
+}
