@@ -2,7 +2,7 @@
 
 const vegetables: string[] = ["garlic", "carrot", "broccoli", "pumpkin"];
 // 1. Sort the array in alphabetically
-const sortedVegetables: string[] = [...vegetables].sort();
+const sortedVegetables: string[] = vegetables.sort();
 console.log(vegetables);
 
 // 2. What is the length of the array
@@ -20,7 +20,7 @@ vegetables.push("onion");
 console.log(vegetables);
 
 // 5. Write a function using if-else condition to check if the length of the array is bigger than 4.
-function checkLength(vegetables: any[]): boolean {
+function checkLength(vegetables: string[]): boolean {
   if (vegetables.length > 4) {
     return true;
   } else {
